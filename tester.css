@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+body {
+  margin: 0;
+}
+section {
+  height: 100vh;
+  /* width: 100vw; */
+  background: url(svgBackground_portfolio.svg) center center no-repeat;
+  /* background-repeat: no-repeat; */
+}
+
+.background {
+  background-size: cover;
+}
+
+.text, .text2 {
+  font-family: 'Courgette', cursive;
+  color: white;
+}
+
+.section_2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 25px;
+  grid-row-gap: .4em;
+  justify-items: center;
+
+}

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+@import url('https://fonts.googleapis.com/css?family=Assistant:200');
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: url(franklinMtnElPaso_P.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+span {
+  font-family: 'Assistant', sans-serif;
+}
+
+.icon_rows {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-auto-rows: 50px;
+  justify-items: center;
+}
+
+.name_row {
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  grid-auto-rows: 175px;
+  justify-items: center;
+}
+
+div svg:hover {
+	cursor: help;
+}
+
+.menu {
+  justify-self: end;
+}
+
+.menu:hover {
+  cursor: pointer;
+}
+
+div#nameLogo a.menu svg:hover {
+	cursor: pointer;
+}
+
+.icon_rows #angular .tooltiptext,
+.icon_rows #js .tooltiptext,
+.icon_rows #css .tooltiptext, 
+.icon_rows #html .tooltiptext, 
+.icon_rows #sql .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: transparent;
+  color: #8F8F8F;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  bottom: -150%;
+  left: 50%;
+  margin-left: -25px;
+
+  /* Position the tooltip */
+  position: relative;
+  z-index: 1;
+}
+
+.icon_rows #git .tooltiptext, 
+.icon_rows #node .tooltiptext, 
+.icon_rows #mongo .tooltiptext, 
+.icon_rows #vue .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: transparent;
+  color: #8F8F8F;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  bottom: -50%;
+  left: 55%;
+  margin-left: -25px;
+
+  /* Position the tooltip */
+  position: relative;
+  z-index: 1;
+}
+
+ 
+.name_row #react .tooltiptext, 
+.name_row #highcharts .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: transparent;
+  color: #8F8F8F;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  bottom: -15%;
+  left: 60%;
+  margin-left: -25px;
+
+  /* Position the tooltip */
+  position: relative;
+  z-index: 1;
+}
+
+.icon_rows #angular:hover .tooltiptext,
+.icon_rows #js:hover .tooltiptext,
+.icon_rows #css:hover .tooltiptext, 
+.icon_rows #html:hover .tooltiptext, 
+.icon_rows #git:hover .tooltiptext, 
+.name_row #react:hover .tooltiptext, 
+.name_row #highcharts:hover .tooltiptext, 
+.icon_rows #node:hover .tooltiptext, 
+.icon_rows #sql:hover .tooltiptext, 
+.icon_rows #mongo:hover .tooltiptext, 
+.icon_rows #vue:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+@media only screen and (max-width: 375px) {
+  .tinyMobileNoShow {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .mobileNoShow {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 640px){
+  body {
+    background: url(franklinMtnElPaso_T.jpg) center center no-repeat;
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  body {
+    background: url(franklinMtnElPaso_D.jpg) center center no-repeat;
+    background-size: cover;
+  }
+  .name_row {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  body {
+    background:url(franklinMtnElPaso_LD.jpg) center center no-repeat;
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 1600px){
+  body {
+    background: url(franklinMtnElPaso_XLD.jpg) center center no-repeat;
+    background-size: cover;
+  }
+}

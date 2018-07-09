@@ -2,9 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Assistant:200');
 
+
 body {
   margin: 0;
-  height: 100vh;
+  height: 103vh;
   background: url(franklinMtnElPaso_P.jpg) center center no-repeat;
   background-size: cover;
 }
@@ -41,22 +42,22 @@ div#node svg {
 div#angular svg,
 div#react svg,
 div#vue svg {
-  -webkit-animation: fadein2 4s; /* Safari, Chrome and Opera > 12.1 */
-      -moz-animation: fadein2 4s; /* Firefox < 16 */
-      -ms-animation: fadein2 4s; /* Internet Explorer */
-        -o-animation: fadein2 4s; /* Opera < 12.1 */
-          animation: fadein2 4s;
+  -webkit-animation: fadein2 6s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein2 6s; /* Firefox < 16 */
+      -ms-animation: fadein2 6s; /* Internet Explorer */
+        -o-animation: fadein2 6s; /* Opera < 12.1 */
+          animation: fadein2 6s;
 }
 
 div#css svg,
 div#git svg,
 div#sql svg,
 div#mongo svg {
-  -webkit-animation: fadein3 4s; /* Safari, Chrome and Opera > 12.1 */
-      -moz-animation: fadein3 4s; /* Firefox < 16 */
-      -ms-animation: fadein3 4s; /* Internet Explorer */
-        -o-animation: fadein3 4s; /* Opera < 12.1 */
-          animation: fadein3 4s;
+  -webkit-animation: fadein3 8s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein3 8s; /* Firefox < 16 */
+      -ms-animation: fadein3 8s; /* Internet Explorer */
+        -o-animation: fadein3 8s; /* Opera < 12.1 */
+          animation: fadein3 8s;
 }
 @keyframes fadein1 {
   from { opacity: 0; }
@@ -187,6 +188,7 @@ div#nameLogo a.menu svg:hover {
  
 .name_row #react .tooltiptext, 
 .name_row #highcharts .tooltiptext {
+  display: none;
   visibility: hidden;
   width: 120px;
   background-color: transparent;
@@ -245,6 +247,10 @@ div#nameLogo a.menu svg:hover {
   .name_row {
     display: grid;
     grid-template-columns: 30% 40% 30%;
+  }
+  .name_row #react .tooltiptext, 
+  .name_row #highcharts .tooltiptext {
+  display: inline;
   }
 }
 

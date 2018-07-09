@@ -234,6 +234,20 @@ div#nameLogo a.menu svg:hover {
   body {
     padding-bottom: 20px;
   }
+
+  #react svg,
+  #highcharts svg,
+  #angular svg,
+  #js svg,
+  #css svg,
+  #node svg,
+  #sql svg,
+  #mongo svg,
+  #vue svg {
+    display: none;
+  }
+
+
 }
 
 @media only screen and (min-width: 640px){

@@ -27,37 +27,37 @@ span {
   grid-auto-rows: 175px;
   justify-items: center;
 }
-/* testing fade in */
+/* 4 icon fade in first */
 div#js svg,
 div#html svg,
 div#highcharts svg,
 div#node svg {
-  -webkit-animation: fadein1 2s; /* Safari, Chrome and Opera > 12.1 */
-      -moz-animation: fadein1 2s; /* Firefox < 16 */
-      -ms-animation: fadein1 2s; /* Internet Explorer */
-        -o-animation: fadein1 2s; /* Opera < 12.1 */
-          animation: fadein1 2s;
+  -webkit-animation: fadein1 4s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein1 4s; /* Firefox < 16 */
+      -ms-animation: fadein1 4s; /* Internet Explorer */
+        -o-animation: fadein1 4s; /* Opera < 12.1 */
+          animation: fadein1 4s;
 }
 
 div#angular svg,
 div#react svg,
 div#vue svg {
-  -webkit-animation: fadein2 6s; /* Safari, Chrome and Opera > 12.1 */
-      -moz-animation: fadein2 6s; /* Firefox < 16 */
-      -ms-animation: fadein2 6s; /* Internet Explorer */
-        -o-animation: fadein2 6s; /* Opera < 12.1 */
-          animation: fadein2 6s;
+  -webkit-animation: fadein2 8s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein2 8s; /* Firefox < 16 */
+      -ms-animation: fadein2 8s; /* Internet Explorer */
+        -o-animation: fadein2 8s; /* Opera < 12.1 */
+          animation: fadein2 8s;
 }
 
 div#css svg,
 div#git svg,
 div#sql svg,
 div#mongo svg {
-  -webkit-animation: fadein3 8s; /* Safari, Chrome and Opera > 12.1 */
-      -moz-animation: fadein3 8s; /* Firefox < 16 */
-      -ms-animation: fadein3 8s; /* Internet Explorer */
-        -o-animation: fadein3 8s; /* Opera < 12.1 */
-          animation: fadein3 8s;
+  -webkit-animation: fadein3 10s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein3 10s; /* Firefox < 16 */
+      -ms-animation: fadein3 10s; /* Internet Explorer */
+        -o-animation: fadein3 10s; /* Opera < 12.1 */
+          animation: fadein3 10s;
 }
 @keyframes fadein1 {
   from { opacity: 0; }
@@ -255,6 +255,7 @@ div#nameLogo a.menu svg:hover {
     background: url(franklinMtnElPaso_T.jpg) center center no-repeat;
     background-size: cover;
   }
+
 }
 
 @media only screen and (min-width: 768px){

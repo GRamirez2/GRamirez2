@@ -5,7 +5,7 @@
 
 - 🔭 I’m currently working at [SingleStone Consulting](https://www.singlestoneconsulting.com/)
 
-- 🌱 I’m currently learning **GoLang & Python**
+- 🌱 I’m currently learning **NestJS & Qwik**
 
 - 👨‍💻 All of my projects are available at [https://github.com/GRamirez2](https://github.com/GRamirez2)
 

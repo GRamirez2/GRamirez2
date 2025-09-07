@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm George Ramirez</h1>
-<h3 align="center">Senior Frontend engineer specializing in Angular and Data Visualization</h3>
+<h3 align="center">Senior Engineer speializing in JS and Front-end</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=gramirez2&label=Profile%20views&color=0e75b6&style=flat" alt="gramirez2" /> </p>
 

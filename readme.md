@@ -5,17 +5,17 @@
 
 - 🔭 I’m currently working at [SingleStone Consulting](https://www.singlestoneconsulting.com/)
 
-- 🌱 I’m currently learning **NestJS & Qwik**
+- 🌱 I’m currently learning **how to write custom AI agents & python**
 
 - 👨‍💻 All of my projects are available at [https://github.com/GRamirez2](https://github.com/GRamirez2)
 
-- 💬 Ask me about **Angular**
+- 💬 Ask me about Angular
 
-- 📫 How to reach me **visit my site**
+- 📫 How to reach me [georgeramirez.me](georgeramirez.me)
 
 - 📄 Know about my experiences [georgeramirez.me](georgeramirez.me)
 
-- ⚡ Fun fact **I love 🌮**
+- ⚡ Fun fact - I love 🌮
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
